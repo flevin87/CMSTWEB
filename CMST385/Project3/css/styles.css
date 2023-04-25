@@ -1,0 +1,260 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e67e22;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imgs/jungle2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#logo {
+    width: 100px;
+    filter: invert(100%);
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #180703;
+    position: relative;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+button {
+    font-family: 'Amerika Pro', sans-serif;
+    ;
+    display: inline-block;
+    width: 10%;
+    height: 40px;
+    background-color: #e67e22;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    top: 20px;
+    right: 600px;
+}
+
+.wrapper-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1.header {
+    color: #fff;
+    font-family: 'Amerika Pro', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+}
+
+h2.tagline {
+    color: #fff;
+    font-family: 'Amerika Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p.bio {
+    color: #fff;
+    font-family: 'Amerika Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.hero-text {
+    background-color: rgb(230, 126, 34, 0.7);
+}
+
+.wrapper {
+    font-family: 'amerika pro', sans-serif;
+}
+
+@media screen and (min-width: 720px) {
+
+    .wrapper {
+        display: flex;
+    }
+
+    .wrapper .listingColumn,
+    .wrapper .photoColumn {
+        width: 50%;
+        height: 100vh;
+        justify-content: center;
+    }
+}
+
+.listingColumn {
+    background: rgb(131, 119, 68);
+    background: radial-gradient(circle, rgba(131, 119, 68, 1) 42%, rgba(191, 172, 54, 1) 42%, rgba(12, 13, 10, 1) 82%);
+    text-align: center;
+    margin: auto;
+    border: 5px solid #180703;
+}
+
+div.listingColumn:nth-child(2) {
+    background: rgb(169, 147, 96);
+    background: radial-gradient(circle, rgba(169, 147, 96, 1) 42%, rgba(255, 239, 202, 1) 42%, rgba(230, 192, 65, 1) 82%);
+}
+
+#thirdList {
+    background: rgb(180, 147, 191);
+    background: radial-gradient(circle, rgba(180, 147, 191, 1) 42%, rgba(88, 166, 166, 1) 42%, rgba(217, 206, 193, 1) 82%);
+}
+
+.listingColumn h1 {
+    font-weight: 700;
+    padding-top: 1em;
+}
+
+.listingColumn h6 {
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.listingColumn ul {
+    margin: 10px;
+    padding-left: 0;
+}
+
+.listingColumn ul li {
+    margin: 5px;
+    padding-left: 0;
+}
+
+div.photoColumn {
+    text-align: center;
+    display: flex;
+
+    background: rgb(12, 13, 10);
+    background: radial-gradient(circle, rgba(12, 13, 10, 1) 42%, rgba(191, 172, 54, 1) 65%, rgba(131, 119, 68, 1) 82%);
+    border: 5px solid #180703;
+}
+
+div.photoColumn:nth-child(1) {
+    background: rgb(255, 239, 202);
+    background: radial-gradient(rgb(230, 192, 65) 42%, rgb(255, 239, 202) 65%, rgb(169, 147, 96) 82%);
+    border: 5px solid #180703;
+}
+
+#thirdPhoto {
+
+    background: rgb(217, 206, 193);
+    background: radial-gradient(circle, rgba(217, 206, 193, 1) 42%, rgba(88, 166, 166, 1) 65%, rgba(180, 147, 191, 1) 82%);
+}
+
+.album {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    border: 5px solid #180703;
+}
+
+
+
+/* News Stylings */
+.jungleNews .pageTitle {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Amerika Pro', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.jungleNews .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.jungleNews .blog {
+    margin-bottom: 30px;
+}
+
+.blog .inner {
+    background-color: #FFF;
+    padding: 10px;
+    cursor: pointer;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.blog .inner:hover {
+    background-color: #e6e6e6;
+}
+
+.blog .crop {
+    height: 50%;
+    overflow: hidden;
+}
+
+.blog .crop img {
+    width: 100%;
+}
+
+.blog-content {
+    display: table;
+    padding: 30px 0 28px;
+}
+
+.blog-content .blog-date {
+    border-right: 1px solid #e67e22;
+    display: table-cell;
+    font-family: 'Amerika Pro', sans-serif;
+    padding: 0px 18px 0px 15px;
+    text-align: center;
+}
+
+.blog-content .blog-date {
+    font-size: 25px;
+    color: #e67e22;
+}
+
+.blog-content .blog-header {
+    color: #000;
+    display: table-cell;
+    font-family: 'amerika pro', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    line-height: 1.1;
+    padding: 0 20px;
+    vertical-align: top;
+}
