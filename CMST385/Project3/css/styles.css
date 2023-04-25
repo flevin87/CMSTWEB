@@ -41,7 +41,7 @@ a {
     align-items: center;
 }
 
-button {
+a.btn {
     font-family: 'Amerika Pro', sans-serif;
     ;
     display: inline-block;
