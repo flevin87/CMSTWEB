@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -18,14 +18,24 @@
             <li class="navbar-item"><a href="contact.html">Get In Touch!</a></li>
         </ul>
     </nav>
-
-    <div class="landing">
-        <div class="landing-text">
-            <h1> <em>Hi</em>, I'm Kevin Hackler</h1>
-            <p> Front-End Web Developer | UI/UX Designer | Bass Player </p>
-            <a href="projects.html">Check Out My Work</a>
-        </div>
-    </div>
+    <section class="contact-section">
+        <h2>Contact</h2>
+        <form action="mailto:hackler.kevin96@gmail.com" class="contact-form">
+            <div class="field">
+                <label for="name">Name:</label>
+                <input type="text">
+            </div>
+            <div class="field">
+                <label for="email">Email:</label>
+                <input type="email">
+            </div>
+            <div class="field">
+                <label for="message">Message:</label>
+                <input type="text">
+            </div>
+            <button type="submit" class="submit">Send Message</button>
+        </form>
+    </section>
 
     <footer class="footer">
         <p>&copy; Kevin Hackler - All Rights Reserved</p>
